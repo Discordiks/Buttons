@@ -1,0 +1,29 @@
+button {
+    cursor: pointer;
+    width: 300px;
+    height: 75px;
+    flex-shrink: 0;
+    border-radius: 30px;
+    background: #4F3FFE;
+    box-shadow: 5px 7px 4px 0px rgba(0, 0, 0, 0.25);
+
+    color: #FFF;
+    font-size: 32px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    margin-right: 10px;
+}
+
+.buttons {
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+    gap: 20px;
+}
+
+#btn11 {
+    margin: 20px;
+    background: #3FFE52;
+    color: #000;
+}

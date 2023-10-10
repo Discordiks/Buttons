@@ -10,18 +10,17 @@ function hide_btn(btn, time) {
 function blick_btn(btn) {
     return function () {
         setTimeout(function () {
-            btn.style.visibility = 'hidden';
-            interval1 = setInterval(function () {
-                btn.style.visibility = 'visible';
+            setInterval(function () {
+                if (btn.style.visibility == 'visible') {
+                    btn.style.visibility = 'hidden';
+                }
+                else {
+                    btn.style.visibility = 'visible';
+                }
             }, 1000);
-            interval2 = setInterval(function () {
-                btn.style.visibility = 'hidden';
-            }, 2000);
         }, 9000);
-
     }
 }
-
 function reset() {
     location.reload();
 }

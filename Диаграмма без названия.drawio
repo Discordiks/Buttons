@@ -1,17 +1,65 @@
 <mxfile host="app.diagrams.net">
   <diagram name="Страница-1" id="USPNQsaFkXLpUknS5iDc">
-    <mxGraphModel dx="803" dy="446" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="1999" dy="1819" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
-        <mxCell id="QugISaNB2tZ8seF8ZxKL-1" parent="1" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;outlineConnect=0;" value="Внешний нарушитель&lt;div&gt;(Хакер/Интернет)&lt;/div&gt;" vertex="1">
-          <mxGeometry height="60" width="30" x="250" y="140" as="geometry" />
+        <mxCell id="eWGLKCcsjbhSAPN1RPYS-18" parent="1" style="swimlane;whiteSpace=wrap;html=1;align=left;" value="&amp;nbsp; &amp;nbsp; &amp;nbsp;&amp;nbsp;Реализация угроз (Нарушение свойств ИБ)" vertex="1">
+          <mxGeometry height="130" width="870" x="-17" y="500" as="geometry" />
         </mxCell>
-        <mxCell id="QugISaNB2tZ8seF8ZxKL-2" parent="1" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;outlineConnect=0;" value="Внутренний нарушитель&lt;div&gt;(Сотрудник с WI-FI)&lt;/div&gt;" vertex="1">
-          <mxGeometry height="60" width="30" x="420" y="150" as="geometry" />
+        <mxCell id="eWGLKCcsjbhSAPN1RPYS-11" parent="eWGLKCcsjbhSAPN1RPYS-18" style="rounded=0;whiteSpace=wrap;html=1;" value="Нарушение конфиденциальности&lt;div&gt;(Учетка аудио/видео)&lt;/div&gt;" vertex="1">
+          <mxGeometry height="60" width="196" x="39" y="40" as="geometry" />
         </mxCell>
-        <mxCell id="QugISaNB2tZ8seF8ZxKL-3" parent="1" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;outlineConnect=0;" value="Actor" vertex="1">
-          <mxGeometry height="60" width="30" x="610" y="150" as="geometry" />
+        <mxCell id="eWGLKCcsjbhSAPN1RPYS-12" parent="eWGLKCcsjbhSAPN1RPYS-18" style="rounded=0;whiteSpace=wrap;html=1;" value="Физическая безопасность&lt;div&gt;(Травма оператора)&lt;/div&gt;" vertex="1">
+          <mxGeometry height="60" width="177" x="269" y="40" as="geometry" />
+        </mxCell>
+        <mxCell id="eWGLKCcsjbhSAPN1RPYS-13" parent="eWGLKCcsjbhSAPN1RPYS-18" style="rounded=0;whiteSpace=wrap;html=1;" value="Нарушение целостности&lt;div&gt;(Подмена команд/прошивки)&lt;/div&gt;" vertex="1">
+          <mxGeometry height="60" width="171" x="480" y="40" as="geometry" />
+        </mxCell>
+        <mxCell id="eWGLKCcsjbhSAPN1RPYS-14" parent="eWGLKCcsjbhSAPN1RPYS-18" style="rounded=0;whiteSpace=wrap;html=1;" value="Нарушение доступности&lt;div&gt;(отказ в обслуживании)&lt;/div&gt;" vertex="1">
+          <mxGeometry height="60" width="146" x="690" y="40" as="geometry" />
+        </mxCell>
+        <mxCell id="eWGLKCcsjbhSAPN1RPYS-24" parent="1" style="swimlane;whiteSpace=wrap;html=1;align=left;" value="&amp;nbsp; &amp;nbsp; &amp;nbsp;&amp;nbsp;Объекты воздействия (Активы)" vertex="1">
+          <mxGeometry height="130" width="610" x="90" y="310" as="geometry" />
+        </mxCell>
+        <mxCell id="eWGLKCcsjbhSAPN1RPYS-7" parent="eWGLKCcsjbhSAPN1RPYS-24" style="whiteSpace=wrap;html=1;shape=mxgraph.basic.document" value="Аудипоток&lt;div&gt;(Микрофон)&lt;/div&gt;" vertex="1">
+          <mxGeometry height="70" width="108" x="32" y="40" as="geometry" />
+        </mxCell>
+        <mxCell id="eWGLKCcsjbhSAPN1RPYS-10" parent="eWGLKCcsjbhSAPN1RPYS-24" style="whiteSpace=wrap;html=1;shape=mxgraph.basic.document" value="Видеопоток&lt;div&gt;(Камера)&lt;/div&gt;" vertex="1">
+          <mxGeometry height="70" width="110" x="180" y="40" as="geometry" />
+        </mxCell>
+        <mxCell id="eWGLKCcsjbhSAPN1RPYS-8" parent="eWGLKCcsjbhSAPN1RPYS-24" style="whiteSpace=wrap;html=1;shape=mxgraph.basic.document" value="Управление движением&lt;div&gt;(Сервоприводы)&lt;/div&gt;" vertex="1">
+          <mxGeometry height="70" width="110" x="320" y="40" as="geometry" />
+        </mxCell>
+        <mxCell id="eWGLKCcsjbhSAPN1RPYS-9" parent="eWGLKCcsjbhSAPN1RPYS-24" style="whiteSpace=wrap;html=1;shape=mxgraph.basic.document" value="Прошивка и ПО&lt;div&gt;(Rpi и Arduino)&lt;/div&gt;" vertex="1">
+          <mxGeometry height="70" width="108" x="460" y="40" as="geometry" />
+        </mxCell>
+        <mxCell id="eWGLKCcsjbhSAPN1RPYS-25" parent="1" style="swimlane;whiteSpace=wrap;html=1;align=left;" value="&amp;nbsp; &amp;nbsp; &amp;nbsp;&amp;nbsp;Каналы управления роботом InMoov (Точки входа)" vertex="1">
+          <mxGeometry height="120" width="600" x="100" y="150" as="geometry" />
+        </mxCell>
+        <mxCell id="eWGLKCcsjbhSAPN1RPYS-1" parent="eWGLKCcsjbhSAPN1RPYS-25" style="shape=cylinder3;whiteSpace=wrap;html=1;boundedLbl=1;backgroundOutline=1;size=15;" value="Cloud API&lt;div&gt;(SSH)&lt;/div&gt;" vertex="1">
+          <mxGeometry height="70" width="100" x="40" y="40" as="geometry" />
+        </mxCell>
+        <mxCell id="eWGLKCcsjbhSAPN1RPYS-2" parent="eWGLKCcsjbhSAPN1RPYS-25" style="shape=cylinder3;whiteSpace=wrap;html=1;boundedLbl=1;backgroundOutline=1;size=15;" value="Wi-Fi&lt;div&gt;(Rasberry Pi)&lt;/div&gt;" vertex="1">
+          <mxGeometry height="70" width="100" x="178.5" y="40" as="geometry" />
+        </mxCell>
+        <mxCell id="eWGLKCcsjbhSAPN1RPYS-3" parent="eWGLKCcsjbhSAPN1RPYS-25" style="shape=cylinder3;whiteSpace=wrap;html=1;boundedLbl=1;backgroundOutline=1;size=15;" value="Bluetooth&lt;div&gt;(HC-05/06)&lt;/div&gt;" vertex="1">
+          <mxGeometry height="70" width="100" x="320" y="40" as="geometry" />
+        </mxCell>
+        <mxCell id="eWGLKCcsjbhSAPN1RPYS-4" parent="eWGLKCcsjbhSAPN1RPYS-25" style="shape=cylinder3;whiteSpace=wrap;html=1;boundedLbl=1;backgroundOutline=1;size=15;" value="&lt;div&gt;USB&lt;/div&gt;&lt;div&gt;(Arduino Mega)&lt;/div&gt;" vertex="1">
+          <mxGeometry height="70" width="100" x="470" y="40" as="geometry" />
+        </mxCell>
+        <mxCell id="eWGLKCcsjbhSAPN1RPYS-26" parent="1" style="swimlane;whiteSpace=wrap;html=1;align=left;" value="&amp;nbsp; &amp;nbsp; &amp;nbsp; Источники угроз" vertex="1">
+          <mxGeometry height="160" width="524" x="138" y="-150" as="geometry" />
+        </mxCell>
+        <mxCell id="QugISaNB2tZ8seF8ZxKL-1" parent="eWGLKCcsjbhSAPN1RPYS-26" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;outlineConnect=0;" value="Внешний нарушитель&lt;div&gt;(Хакер/Интернет)&lt;/div&gt;" vertex="1">
+          <mxGeometry height="60" width="30" x="74" y="40" as="geometry" />
+        </mxCell>
+        <mxCell id="QugISaNB2tZ8seF8ZxKL-2" parent="eWGLKCcsjbhSAPN1RPYS-26" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;outlineConnect=0;" value="Внутренний нарушитель&lt;div&gt;(Сотрудник с Wi-Fi)&lt;/div&gt;" vertex="1">
+          <mxGeometry height="60" width="30" x="242" y="40" as="geometry" />
+        </mxCell>
+        <mxCell id="QugISaNB2tZ8seF8ZxKL-3" parent="eWGLKCcsjbhSAPN1RPYS-26" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;outlineConnect=0;" value="Вредоносное ПО&lt;div&gt;(Троян на USB-хосте)&lt;/div&gt;" vertex="1">
+          <mxGeometry height="60" width="30" x="404" y="40" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>

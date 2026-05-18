@@ -22,32 +22,29 @@
         <mxCell id="eWGLKCcsjbhSAPN1RPYS-24" parent="1" style="swimlane;whiteSpace=wrap;html=1;align=left;" value="&amp;nbsp; &amp;nbsp; &amp;nbsp;&amp;nbsp;Объекты воздействия (Активы)" vertex="1">
           <mxGeometry height="130" width="610" x="90" y="360" as="geometry" />
         </mxCell>
-        <mxCell id="eWGLKCcsjbhSAPN1RPYS-7" parent="eWGLKCcsjbhSAPN1RPYS-24" style="whiteSpace=wrap;html=1;shape=mxgraph.basic.document" value="Аудипоток&lt;div&gt;(Микрофон)&lt;/div&gt;" vertex="1">
-          <mxGeometry height="70" width="108" x="32" y="40" as="geometry" />
-        </mxCell>
         <mxCell id="eWGLKCcsjbhSAPN1RPYS-10" parent="eWGLKCcsjbhSAPN1RPYS-24" style="whiteSpace=wrap;html=1;shape=mxgraph.basic.document" value="Видеопоток&lt;div&gt;(Камера)&lt;/div&gt;" vertex="1">
-          <mxGeometry height="70" width="110" x="180" y="40" as="geometry" />
+          <mxGeometry height="70" width="150" x="50" y="40" as="geometry" />
         </mxCell>
         <mxCell id="eWGLKCcsjbhSAPN1RPYS-8" parent="eWGLKCcsjbhSAPN1RPYS-24" style="whiteSpace=wrap;html=1;shape=mxgraph.basic.document" value="Управление движением&lt;div&gt;(Сервоприводы)&lt;/div&gt;" vertex="1">
-          <mxGeometry height="70" width="110" x="320" y="40" as="geometry" />
+          <mxGeometry height="70" width="161.5" x="230" y="40" as="geometry" />
         </mxCell>
         <mxCell id="eWGLKCcsjbhSAPN1RPYS-9" parent="eWGLKCcsjbhSAPN1RPYS-24" style="whiteSpace=wrap;html=1;shape=mxgraph.basic.document" value="Прошивка и ПО&lt;div&gt;(Rpi и Arduino)&lt;/div&gt;" vertex="1">
-          <mxGeometry height="70" width="108" x="460" y="40" as="geometry" />
+          <mxGeometry height="70" width="148" x="420" y="40" as="geometry" />
         </mxCell>
         <mxCell id="eWGLKCcsjbhSAPN1RPYS-25" parent="1" style="swimlane;whiteSpace=wrap;html=1;align=left;" value="&amp;nbsp; &amp;nbsp; &amp;nbsp;&amp;nbsp;Каналы управления роботом InMoov (Точки входа)" vertex="1">
           <mxGeometry height="120" width="630" x="100" y="150" as="geometry" />
         </mxCell>
-        <mxCell id="eWGLKCcsjbhSAPN1RPYS-1" parent="eWGLKCcsjbhSAPN1RPYS-25" style="shape=cylinder3;whiteSpace=wrap;html=1;boundedLbl=1;backgroundOutline=1;size=15;" value="Cloud API&lt;div&gt;(SSH)&lt;/div&gt;" vertex="1">
-          <mxGeometry height="70" width="100" x="23" y="40" as="geometry" />
+        <mxCell id="eWGLKCcsjbhSAPN1RPYS-1" parent="eWGLKCcsjbhSAPN1RPYS-25" style="shape=cylinder3;whiteSpace=wrap;html=1;boundedLbl=1;backgroundOutline=1;size=15;" value="SSH (удалённое управление по Wi-Fi)" vertex="1">
+          <mxGeometry height="70" width="147" x="10" y="40" as="geometry" />
         </mxCell>
         <mxCell id="eWGLKCcsjbhSAPN1RPYS-2" parent="eWGLKCcsjbhSAPN1RPYS-25" style="shape=cylinder3;whiteSpace=wrap;html=1;boundedLbl=1;backgroundOutline=1;size=15;" value="Wi-Fi&lt;div&gt;(Rasberry Pi)&lt;/div&gt;" vertex="1">
-          <mxGeometry height="70" width="100" x="183" y="40" as="geometry" />
+          <mxGeometry height="70" width="140" x="174" y="40" as="geometry" />
         </mxCell>
         <mxCell id="eWGLKCcsjbhSAPN1RPYS-3" parent="eWGLKCcsjbhSAPN1RPYS-25" style="shape=cylinder3;whiteSpace=wrap;html=1;boundedLbl=1;backgroundOutline=1;size=15;" value="Bluetooth&lt;div&gt;(HC-05/06)&lt;/div&gt;" vertex="1">
-          <mxGeometry height="70" width="100" x="343" y="40" as="geometry" />
+          <mxGeometry height="70" width="130" x="330" y="40" as="geometry" />
         </mxCell>
         <mxCell id="eWGLKCcsjbhSAPN1RPYS-4" parent="eWGLKCcsjbhSAPN1RPYS-25" style="shape=cylinder3;whiteSpace=wrap;html=1;boundedLbl=1;backgroundOutline=1;size=15;" value="&lt;div&gt;USB&lt;/div&gt;&lt;div&gt;(Arduino Mega)&lt;/div&gt;" vertex="1">
-          <mxGeometry height="70" width="100" x="503" y="40" as="geometry" />
+          <mxGeometry height="70" width="123" x="480" y="40" as="geometry" />
         </mxCell>
         <mxCell id="eWGLKCcsjbhSAPN1RPYS-26" parent="1" style="swimlane;whiteSpace=wrap;html=1;align=left;" value="&amp;nbsp; &amp;nbsp; &amp;nbsp; Источники угроз" vertex="1">
           <mxGeometry height="160" width="580" x="110" y="-150" as="geometry" />
@@ -55,7 +52,7 @@
         <mxCell id="QugISaNB2tZ8seF8ZxKL-1" parent="eWGLKCcsjbhSAPN1RPYS-26" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;outlineConnect=0;" value="Внешний нарушитель&lt;div&gt;(Хакер/Интернет)&lt;/div&gt;" vertex="1">
           <mxGeometry height="60" width="30" x="74" y="40" as="geometry" />
         </mxCell>
-        <mxCell id="QugISaNB2tZ8seF8ZxKL-2" parent="eWGLKCcsjbhSAPN1RPYS-26" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;outlineConnect=0;" value="Внутренний нарушитель&lt;div&gt;(Сотрудник с Wi-Fi)&lt;/div&gt;" vertex="1">
+        <mxCell id="QugISaNB2tZ8seF8ZxKL-2" parent="eWGLKCcsjbhSAPN1RPYS-26" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;outlineConnect=0;" value="Внутренний нарушитель&lt;div&gt;(Сотрудник с Wi-Fi,&amp;nbsp;&lt;span style=&quot;white-space: normal; background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;Bluetooth&lt;/span&gt;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;)&lt;/span&gt;&lt;/div&gt;" vertex="1">
           <mxGeometry height="60" width="30" x="273" y="40" as="geometry" />
         </mxCell>
         <mxCell id="QugISaNB2tZ8seF8ZxKL-3" parent="eWGLKCcsjbhSAPN1RPYS-26" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;outlineConnect=0;" value="Вредоносное ПО&lt;div&gt;(Троян на USB-хосте)&lt;/div&gt;" vertex="1">
@@ -67,8 +64,8 @@
             <mxPoint x="170" y="150" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="eWGLKCcsjbhSAPN1RPYS-29" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="Сниффикс токена бота/Брутфорс SSH" vertex="1">
-          <mxGeometry height="30" width="140" x="20" y="40" as="geometry" />
+        <mxCell id="eWGLKCcsjbhSAPN1RPYS-29" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="Брутфорс SSH" vertex="1">
+          <mxGeometry height="30" width="110" x="50" y="60" as="geometry" />
         </mxCell>
         <mxCell id="eWGLKCcsjbhSAPN1RPYS-30" edge="1" parent="1" source="eWGLKCcsjbhSAPN1RPYS-26" style="endArrow=classic;html=1;rounded=0;entryX=0.359;entryY=0.008;entryDx=0;entryDy=0;entryPerimeter=0;exitX=0.25;exitY=1;exitDx=0;exitDy=0;edgeStyle=orthogonalEdgeStyle;" target="eWGLKCcsjbhSAPN1RPYS-25" value="">
           <mxGeometry height="50" relative="1" width="50" as="geometry">
@@ -153,8 +150,8 @@
             <mxPoint x="90" y="290" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="eWGLKCcsjbhSAPN1RPYS-42" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="Запрос/capture через API&amp;nbsp;" vertex="1">
-          <mxGeometry height="30" width="140" x="30" y="280" as="geometry" />
+        <mxCell id="eWGLKCcsjbhSAPN1RPYS-42" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="Запрос/capture&lt;div&gt;через API&amp;nbsp;&lt;/div&gt;" vertex="1">
+          <mxGeometry height="30" width="120" x="30" y="290" as="geometry" />
         </mxCell>
         <mxCell id="eWGLKCcsjbhSAPN1RPYS-43" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="Перехват&lt;div&gt;HTTP-потока MIPEG&lt;/div&gt;" vertex="1">
           <mxGeometry height="40" width="90" x="200" y="280" as="geometry" />
@@ -194,66 +191,54 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="eWGLKCcsjbhSAPN1RPYS-49" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="Кража изображений с камеры" vertex="1">
-          <mxGeometry height="40" width="120" x="185" y="510" as="geometry" />
-        </mxCell>
-        <mxCell id="eWGLKCcsjbhSAPN1RPYS-50" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="Запись конфиденциальных разговоров" vertex="1">
-          <mxGeometry height="50" width="170" x="-20" y="500" as="geometry" />
+          <mxGeometry height="40" width="120" x="80" y="505" as="geometry" />
         </mxCell>
         <mxCell id="eWGLKCcsjbhSAPN1RPYS-51" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="Неконтролируемое движение (схват, удар, падение)" vertex="1">
-          <mxGeometry height="30" width="119" x="330" y="515" as="geometry" />
+          <mxGeometry height="30" width="119" x="240" y="510" as="geometry" />
         </mxCell>
         <mxCell id="eWGLKCcsjbhSAPN1RPYS-52" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="Изменение алгоритма ходьбы" vertex="1">
-          <mxGeometry height="30" width="60" x="510" y="515" as="geometry" />
+          <mxGeometry height="30" width="60" x="440" y="510" as="geometry" />
         </mxCell>
         <mxCell id="eWGLKCcsjbhSAPN1RPYS-53" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="Внедрение бэкдора в прошивку" vertex="1">
-          <mxGeometry height="30" width="60" x="600" y="515" as="geometry" />
-        </mxCell>
-        <mxCell id="eWGLKCcsjbhSAPN1RPYS-54" edge="1" parent="1" style="endArrow=classic;html=1;rounded=0;entryX=0.168;entryY=0.008;entryDx=0;entryDy=0;entryPerimeter=0;edgeStyle=orthogonalEdgeStyle;" target="eWGLKCcsjbhSAPN1RPYS-18" value="">
-          <mxGeometry height="50" relative="1" width="50" as="geometry">
-            <Array as="points">
-              <mxPoint x="160" y="550" />
-              <mxPoint x="86" y="550" />
-            </Array>
-            <mxPoint x="160" y="490" as="sourcePoint" />
-            <mxPoint x="60" y="480" as="targetPoint" />
-          </mxGeometry>
+          <mxGeometry height="30" width="60" x="560" y="510" as="geometry" />
         </mxCell>
         <mxCell id="eWGLKCcsjbhSAPN1RPYS-55" edge="1" parent="1" style="endArrow=classic;html=1;rounded=0;entryX=0.24;entryY=0.003;entryDx=0;entryDy=0;entryPerimeter=0;edgeStyle=orthogonalEdgeStyle;" target="eWGLKCcsjbhSAPN1RPYS-18" value="">
           <mxGeometry height="50" relative="1" width="50" as="geometry">
             <Array as="points">
-              <mxPoint x="320" y="560" />
+              <mxPoint x="220" y="490" />
+              <mxPoint x="220" y="560" />
               <mxPoint x="149" y="560" />
             </Array>
-            <mxPoint x="320" y="490" as="sourcePoint" />
+            <mxPoint x="230" y="490" as="sourcePoint" />
             <mxPoint x="310" y="520" as="targetPoint" />
           </mxGeometry>
         </mxCell>
         <mxCell id="eWGLKCcsjbhSAPN1RPYS-56" edge="1" parent="1" style="endArrow=classic;html=1;rounded=0;entryX=0.451;entryY=-0.002;entryDx=0;entryDy=0;entryPerimeter=0;edgeStyle=orthogonalEdgeStyle;" target="eWGLKCcsjbhSAPN1RPYS-18" value="">
           <mxGeometry height="50" relative="1" width="50" as="geometry">
             <Array as="points">
-              <mxPoint x="460" y="490" />
-              <mxPoint x="460" y="560" />
+              <mxPoint x="380" y="490" />
+              <mxPoint x="380" y="560" />
               <mxPoint x="332" y="560" />
             </Array>
-            <mxPoint x="430" y="490" as="sourcePoint" />
+            <mxPoint x="380" y="490" as="sourcePoint" />
             <mxPoint x="530" y="530" as="targetPoint" />
           </mxGeometry>
         </mxCell>
         <mxCell id="eWGLKCcsjbhSAPN1RPYS-57" edge="1" parent="1" style="endArrow=classic;html=1;rounded=0;edgeStyle=orthogonalEdgeStyle;" value="">
           <mxGeometry height="50" relative="1" width="50" as="geometry">
             <Array as="points">
-              <mxPoint x="490" y="490" />
-              <mxPoint x="490" y="560" />
+              <mxPoint x="430" y="560" />
               <mxPoint x="520" y="560" />
             </Array>
-            <mxPoint x="510" y="490" as="sourcePoint" />
+            <mxPoint x="430" y="490" as="sourcePoint" />
             <mxPoint x="520" y="580" as="targetPoint" />
           </mxGeometry>
         </mxCell>
         <mxCell id="eWGLKCcsjbhSAPN1RPYS-58" edge="1" parent="1" style="endArrow=classic;html=1;rounded=0;entryX=0.828;entryY=0.014;entryDx=0;entryDy=0;entryPerimeter=0;edgeStyle=orthogonalEdgeStyle;" target="eWGLKCcsjbhSAPN1RPYS-18" value="">
           <mxGeometry height="50" relative="1" width="50" as="geometry">
             <Array as="points">
-              <mxPoint x="580" y="560" />
+              <mxPoint x="550" y="490" />
+              <mxPoint x="550" y="560" />
               <mxPoint x="660" y="560" />
             </Array>
             <mxPoint x="580" y="490" as="sourcePoint" />
@@ -263,17 +248,15 @@
         <mxCell id="eWGLKCcsjbhSAPN1RPYS-59" edge="1" parent="1" style="endArrow=classic;html=1;rounded=0;edgeStyle=orthogonalEdgeStyle;" value="">
           <mxGeometry height="50" relative="1" width="50" as="geometry">
             <Array as="points">
-              <mxPoint x="660" y="500" />
-              <mxPoint x="680" y="500" />
-              <mxPoint x="680" y="560" />
-              <mxPoint x="750" y="560" />
+              <mxPoint x="660" y="550" />
+              <mxPoint x="750" y="550" />
             </Array>
             <mxPoint x="660" y="490" as="sourcePoint" />
             <mxPoint x="750" y="585" as="targetPoint" />
           </mxGeometry>
         </mxCell>
         <mxCell id="eWGLKCcsjbhSAPN1RPYS-60" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="Удаление /boot (brick робота)" vertex="1">
-          <mxGeometry height="30" width="110" x="700" y="520" as="geometry" />
+          <mxGeometry height="30" width="100" x="670" y="505" as="geometry" />
         </mxCell>
         <mxCell id="K0iSP-XveTOPJq4JpPZA-1" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="&lt;b&gt;&lt;font style=&quot;font-size: 14px;&quot;&gt;Схема угроз для робота InMoov&lt;/font&gt;&lt;/b&gt;" vertex="1">
           <mxGeometry height="30" width="330" x="240" y="-190" as="geometry" />
@@ -300,7 +283,7 @@
     </mxGraphModel>
   </diagram>
   <diagram id="ttNQuIHp5kMNFsPj_lCV" name="Страница-2">
-    <mxGraphModel dx="1758" dy="975" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="2163" dy="1200" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />

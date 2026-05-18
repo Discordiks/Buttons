@@ -283,12 +283,12 @@
     </mxGraphModel>
   </diagram>
   <diagram id="ttNQuIHp5kMNFsPj_lCV" name="Страница-2">
-    <mxGraphModel dx="2163" dy="1200" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="1758" dy="975" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
-        <mxCell id="aK08CLWGNFaEjCdw5yUW-1" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="Схема автономного робота InMoov как объекта защиты (информационные потоки и потоки управления)" vertex="1">
-          <mxGeometry height="70" width="351" x="238" y="10" as="geometry" />
+        <mxCell id="aK08CLWGNFaEjCdw5yUW-1" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="&lt;font style=&quot;font-size: 14px;&quot;&gt;&lt;b&gt;Схема автономного робота InMoov как объекта защиты (информационные потоки и потоки управления)&lt;/b&gt;&lt;/font&gt;" vertex="1">
+          <mxGeometry height="60" width="922" x="510" y="70" as="geometry" />
         </mxCell>
         <mxCell id="aK08CLWGNFaEjCdw5yUW-2" parent="1" style="swimlane;whiteSpace=wrap;html=1;" value="Граница информационной системы (Объект защиты: InMoov)" vertex="1">
           <mxGeometry height="880" width="930" x="60" y="140" as="geometry" />
@@ -429,14 +429,11 @@
         <mxCell id="UwMI8jlpC9I7ofEAXpDb-21" parent="1" style="whiteSpace=wrap;html=1;shape=mxgraph.basic.document" value="&lt;ul&gt;&lt;li style=&quot;text-align: left;&quot;&gt;Точка 2&lt;br&gt;Несанкционированный доступ (SSH/VNC/RDP)&lt;/li&gt;&lt;/ul&gt;" vertex="1">
           <mxGeometry height="70" width="180" x="1010" y="430" as="geometry" />
         </mxCell>
-        <mxCell id="UwMI8jlpC9I7ofEAXpDb-22" parent="1" style="whiteSpace=wrap;html=1;shape=mxgraph.basic.document" value="&lt;ul&gt;&lt;li style=&quot;text-align: left;&quot;&gt;Точка 5&lt;br&gt;Подмена прошивки (DFU-режим)&lt;/li&gt;&lt;/ul&gt;" vertex="1">
+        <mxCell id="UwMI8jlpC9I7ofEAXpDb-22" parent="1" style="whiteSpace=wrap;html=1;shape=mxgraph.basic.document" value="&lt;ul&gt;&lt;li style=&quot;text-align: left;&quot;&gt;Точка 4&lt;br&gt;Подмена прошивки (DFU-режим)&lt;/li&gt;&lt;/ul&gt;" vertex="1">
           <mxGeometry height="70" width="170" x="1010" y="590" as="geometry" />
         </mxCell>
-        <mxCell id="UwMI8jlpC9I7ofEAXpDb-23" parent="1" style="whiteSpace=wrap;html=1;shape=mxgraph.basic.document" value="&lt;ul&gt;&lt;li style=&quot;text-align: left;&quot;&gt;Точка 4&lt;br&gt;Компрометация (Bot Token)&lt;/li&gt;&lt;/ul&gt;" vertex="1">
-          <mxGeometry height="70" width="150" x="1400" y="585" as="geometry" />
-        </mxCell>
         <mxCell id="UwMI8jlpC9I7ofEAXpDb-24" parent="1" style="whiteSpace=wrap;html=1;shape=mxgraph.basic.document" value="&lt;ul&gt;&lt;li style=&quot;text-align: left;&quot;&gt;Точка 3&lt;br&gt;Перехват API-трафика (Man-in-the-Middle)&lt;/li&gt;&lt;/ul&gt;" vertex="1">
-          <mxGeometry height="70" width="150" x="1580" y="585" as="geometry" />
+          <mxGeometry height="70" width="150" x="1400" y="584" as="geometry" />
         </mxCell>
         <mxCell id="UwMI8jlpC9I7ofEAXpDb-25" parent="1" style="ellipse;shape=cloud;whiteSpace=wrap;html=1;" value="Облачный сервер&lt;div&gt;(Bot API)&lt;/div&gt;" vertex="1">
           <mxGeometry height="80" width="180" x="1200" y="580" as="geometry" />
@@ -463,7 +460,7 @@
           <mxGeometry height="50" relative="1" width="50" as="geometry">
             <Array as="points">
               <mxPoint x="1344" y="700" />
-              <mxPoint x="1655" y="700" />
+              <mxPoint x="1475" y="700" />
             </Array>
             <mxPoint x="1510" y="750" as="sourcePoint" />
             <mxPoint x="1560" y="700" as="targetPoint" />
@@ -505,6 +502,24 @@
         </mxCell>
         <mxCell id="UwMI8jlpC9I7ofEAXpDb-56" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="Уведомления/Скриншоты" vertex="1">
           <mxGeometry height="30" width="240" x="730" y="720" as="geometry" />
+        </mxCell>
+        <mxCell id="YWJZC2FwEFzKGBlRwr3X-1" edge="1" parent="1" style="endArrow=none;html=1;rounded=0;" value="">
+          <mxGeometry height="50" relative="1" width="50" as="geometry">
+            <Array as="points">
+              <mxPoint x="960" y="80" />
+            </Array>
+            <mxPoint x="910" y="80" as="sourcePoint" />
+            <mxPoint x="1010" y="80" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="YWJZC2FwEFzKGBlRwr3X-2" edge="1" parent="1" style="endArrow=none;html=1;rounded=0;" value="">
+          <mxGeometry height="50" relative="1" width="50" as="geometry">
+            <Array as="points">
+              <mxPoint x="971" y="1040" />
+            </Array>
+            <mxPoint x="921" y="1040" as="sourcePoint" />
+            <mxPoint x="1021" y="1040" as="targetPoint" />
+          </mxGeometry>
         </mxCell>
       </root>
     </mxGraphModel>

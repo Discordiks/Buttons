@@ -1,0 +1,19 @@
+<mxfile host="app.diagrams.net">
+  <diagram name="Страница-1" id="USPNQsaFkXLpUknS5iDc">
+    <mxGraphModel dx="803" dy="446" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="QugISaNB2tZ8seF8ZxKL-1" parent="1" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;outlineConnect=0;" value="Внешний нарушитель&lt;div&gt;(Хакер/Интернет)&lt;/div&gt;" vertex="1">
+          <mxGeometry height="60" width="30" x="250" y="140" as="geometry" />
+        </mxCell>
+        <mxCell id="QugISaNB2tZ8seF8ZxKL-2" parent="1" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;outlineConnect=0;" value="Внутренний нарушитель&lt;div&gt;(Сотрудник с WI-FI)&lt;/div&gt;" vertex="1">
+          <mxGeometry height="60" width="30" x="420" y="150" as="geometry" />
+        </mxCell>
+        <mxCell id="QugISaNB2tZ8seF8ZxKL-3" parent="1" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;outlineConnect=0;" value="Actor" vertex="1">
+          <mxGeometry height="60" width="30" x="610" y="150" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
